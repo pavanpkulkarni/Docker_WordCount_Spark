@@ -5,6 +5,9 @@ This repo contains a word count program that writes output to file.
 # To Run:
 
 1. Clone this repo
+2. Uncomment line 14 when running on local. This line is commented so that we can use Docker master. 
+
+	> //.master("local") //uncomment this line when running on local
 2. Build the project by running - `gradle clean build`
 3. Run `spark-submit` command as
 

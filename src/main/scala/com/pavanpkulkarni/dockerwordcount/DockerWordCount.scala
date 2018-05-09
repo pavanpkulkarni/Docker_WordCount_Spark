@@ -11,7 +11,7 @@ object DockerWordCount {
     //Start the Spark context
     val spark = SparkSession
       .builder()
-      .master("local")
+      //.master("local") //uncomment this line when running on local
       .appName("Docker_Word_Count")
       .getOrCreate()
 
